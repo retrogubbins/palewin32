@@ -1,0 +1,63 @@
+[Setup Wizard Template]
+TemplateDate=19/10/2014 21:57:36
+
+[Select Project and Options]
+txtProjFile=C:\Pale\vb\Pale.vbp
+chkProjRebuild=0
+optBldSetup=True
+chkIncludeDEP=0
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=D:\new96pics\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1="C:\Windows\system32\MSCOMM32.OCX",True,32763,True,False,,,0,False,False
+File2=
+
+[Confirm Dependencies]
+File1="C:\Windows\system32\comdlg32.ocx",True,32764
+File2="C:\Windows\system32\paledll.dll",True,32762
+File3="C:\Windows\system32\MSWINSCK.OCX",True,32764
+File4="C:\Windows\system32\wmp.dll",True,32764
+File5=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\Windows\system32\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\Windows\system32\comdlg32.ocx",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="C:\Windows\system32\paledll.dll",True,"$(WinSysPath)",,True
+File10="C:\Windows\system32\MSWINSCK.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File11="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AXDist.exe",True,"$(WinSysPath)",,True
+File12="C:\Windows\system32\wmp.dll",True,"$(WinSysPath)",,True
+File13="C:\Windows\system32\MSCOMM32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File14="C:\Pale\Pale.exe",True,"$(AppPath)",,False

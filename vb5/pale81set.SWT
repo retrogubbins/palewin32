@@ -1,0 +1,103 @@
+[Setup Wizard Template]
+TemplateDate=10/06/2006 19:03:08
+
+[Select Project and Options]
+txtProjFile=D:\Pale\vb\Pale.vbp
+chkProjRebuild=0
+optBldSetup=True
+chkIncludeDEP=1
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=d:\Pale\Setup81\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="D:\WINNT\system32\Comdlg32.ocx",True,32764
+File2="D:\Pale\paledll.dll",True,32762
+File3=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="D:\WINNT\system32\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="D:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="D:\WINNT\system32\Comdlg32.ocx",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="D:\Pale\paledll.dll",True,"$(WinSysPath)",,True
+File10="D:\Pale\Pale.exe",True,"$(AppPath)",,False
+File11="D:\Pale\Pale.DEP",True,"$(AppPath)",,False
+File12="D:\Pale\APROGS\PALEPROGS\Progs.zip",True,"$(AppPath)",,False
+File13="D:\Pale\README-PALETAPE.txt",True,"$(AppPath)",,False
+File14="D:\Pale\Lynx96+128 Commands.txt",True,"$(AppPath)",,False
+File15="D:\Pale\Paletape1.zip",True,"$(AppPath)",,False
+File16="D:\Pale\README.txt",True,"$(AppPath)",,False
+File17="D:\Pale\Readme-English.txt",True,"$(AppPath)",,False
+File18="D:\Pale\Readme-French.txt",True,"$(AppPath)",,False
+File19="D:\Pale\A5BYTE.JPG",True,"$(AppPath)",,False
+File20="D:\Pale\APROGS\PALEPROGS\3dsection.tap",True,"$(AppPath)",,False
+File21="D:\Pale\APROGS\PALEPROGS\AIRRAID.TAP",True,"$(AppPath)",,False
+File22="D:\Pale\APROGS\PALEPROGS\BACH.TAP",True,"$(AppPath)",,False
+File23="D:\Pale\APROGS\PALEPROGS\BOX.TAP",True,"$(AppPath)",,False
+File24="D:\Pale\APROGS\PALEPROGS\CHRGEN.TAP",True,"$(AppPath)",,False
+File25="D:\Pale\APROGS\PALEPROGS\ENLARGE.TAP",True,"$(AppPath)",,False
+File26="D:\Pale\APROGS\PALEPROGS\lynx3d12.tap",True,"$(AppPath)",,False
+File27="D:\Pale\APROGS\PALEPROGS\lynx3d13.tap",True,"$(AppPath)",,False
+File28="D:\Pale\APROGS\PALEPROGS\PARTA.TAP",True,"$(AppPath)",,False
+File29="D:\Pale\APROGS\PALEPROGS\PARTB.TAP",True,"$(AppPath)",,False
+File30="D:\Pale\APROGS\PALEPROGS\POWERBLASTER.tap",True,"$(AppPath)",,False
+File31="D:\Pale\APROGS\PALEPROGS\3dsecan.tap",True,"$(AppPath)",,False
+File32="D:\Pale\APROGS\PALEPROGS\simdisc.tap",True,"$(AppPath)",,False
+File33="D:\Pale\APROGS\PALEPROGS\simdisc0.tap",True,"$(AppPath)",,False
+File34="D:\Pale\APROGS\PALEPROGS\simdisc0-mc.tap",True,"$(AppPath)",,False
+File35="D:\Pale\APROGS\PALEPROGS\simdisc-mc.tap",True,"$(AppPath)",,False
+File36="D:\Pale\APROGS\PALEPROGS\STARROVER.TAP",True,"$(AppPath)",,False
+File37="D:\Pale\lynxret.raw",True,"$(AppPath)",,False
+File38="D:\Pale\lynx128-1.rom",True,"$(AppPath)",,False
+File39="D:\Pale\lynx128-2.rom",True,"$(AppPath)",,False
+File40="D:\Pale\lynx128-3.rom",True,"$(AppPath)",,False
+File41="D:\Pale\lynx48-1.rom",True,"$(AppPath)",,False
+File42="D:\Pale\lynx48-2.rom",True,"$(AppPath)",,False
+File43="D:\Pale\lynx96-1.rom",True,"$(AppPath)",,False
+File44="D:\Pale\lynx96-2.rom",True,"$(AppPath)",,False
+File45="D:\Pale\lynx96-3.rom",True,"$(AppPath)",,False
+File46="D:\Pale\lynxback.raw",True,"$(AppPath)",,False
+File47="D:\Pale\CURRENT.ROM",True,"$(AppPath)",,False
+File48="D:\Pale\SAMPDISK.LDF",False,"$(AppPath)",,False
+File49="D:\Pale\dosrom.rom",True,"$(AppPath)",,False
+File50="D:\Pale\CPM\CPMBOOT.LDF",False,"$(AppPath)",,False
+File51="D:\Pale\CPM\hax11.LDF",False,"$(AppPath)",,False
+File52="D:\Pale\ADISKS\LYNXUTIL.LDF",True,"$(AppPath)",,False
+File53="D:\Pale\ADISKS\CPMPROBE.LDF",False,"$(AppPath)",,False
+File54="D:\Pale\ADISKS\MASTERCPM.LDF",True,"$(AppPath)",,False
+File55="D:\Pale\APROGS\Manic Miner.tap",True,"$(AppPath)",,False
+File56="D:\Pale\Speccy48-2.ROM",True,"$(AppPath)",,False
+File57="D:\Pale\Speccy48-1.ROM",True,"$(AppPath)",,False

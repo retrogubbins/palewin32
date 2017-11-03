@@ -1,0 +1,5 @@
+Line 43: Class MSComDlg.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 46: The property name _ExtentX in CommonDialog1 is invalid.
+Line 47: The property name _ExtentY in CommonDialog1 is invalid.
+Line 48: The property name _Version in CommonDialog1 is invalid.
+Line 49: The property name CancelError in CommonDialog1 is invalid.

@@ -1,0 +1,198 @@
+ÿ›Lynx 96 Commands
+
+EXPLODE
+KLAXON
+LASER
+ZAP
+------------
+STORE		Something to do with saving 
+ISTORE		data in the 'hidden' ram
+FETCH
+WIPE
+BACK
+--------------
+SSAVE		not sure
+SLOAD
+CSAVE
+CHAIN		as bbc ?
+------------
+TRAP		not sure - can't remember!
+DOTRAP
+----------
+PPRINT		serial & parallel printer
+SPRINT		drivers
+----------
+VRESET		?reset graphics (?crtc values)
+----------
+CIRCLE		1/0,x,y,size
+TRIANGLE	x1,y1,x2,y2,x3,y3
+CLW		clear window
+
+Lynx 128 Commands
+
+MEM		prints freemem
+PI		my old friend
+KEYN		keypress (numerical)
+RND		random numbers
+FILL		sets pattern fill
+LEN(		
+VAL(
+ASC(
+HIMEM		gives himem
+GETN		waits for keypress
+INK n		n can be 0-7 or BLACK...WHITE
+PAPER n		"
+POS		horiz curs pos
+VPOS		vert "
+TRUE
+FALSE
+INF		unsure
+BLACK
+BLUE
+RED
+MAGENTA
+GREEN
+CYAN
+YELLOW
+WHITE
+ALPHA		unsure - ?Font start?
+GRAPHIC		unsure - can't remember, UDG's?
+SIN
+COS
+TAN
+EXP
+LOG
+ANTILOG
+LN
+SGN
+ABS
+INT
+FRAC
+SQR
+PEEK
+DPEEK		as per PET
+INP		port input
+FACT
+ARCTAN
+ARCCOS
+ARCSIN
+FCTN
+AIN
+DEG
+RAD
+RAND
+LIGHTPEN	read CRTC lightpen registers
+JOYSTK		never had one - hence ?
+USER0
+USER1
+USER2		user definable functions
+USER3
+LETTER		unsure... hmmmmmmmm?
+PLOT
+OR
+AND
+BNOR
+BNXOR		binary ops?
+BNAND
+DIV
+MOD
+THEN
+LABEL
+ON		used with trace?
+OFF
+STEP
+TO
+TAB
+CHR$(
+LEFT$(
+RIGHT$(
+MID$(
+UPC$(
+KEY$
+GET$
+STR$(
+
+
+LET
+VDU n,n,n,...		sets various screen options. vals passed to display driver 
+DEFPROC
+PROC
+ENDPROC
+TEXT		sets a fast TEXT mode - printed in Green only, other banks protected
+INK
+PAPER
+RANDOM		restart random number seed?
+VERIFY
+DPOKE		twin of DPEEK
+DOT		hmmm.  another version of plot?
+POKE
+AND
+STOP
+FOR
+GOTO
+GOSUB
+RETURN
+CLS
+RUN
+CONT
+OUT
+REM
+READ
+DATA
+NEW
+DEL
+AUTO		auto line numbering
+PRINT
+LOAD
+SAVE
+RESTORE
+PLOT
+MOVE
+DRAW
+CALL
+INPUT
+DIM
+IF
+LIST
+WINDOW		sets up a window area (cleared by clw)
+PAUSE
+SOUND n,m	runs memory values at n, number m ? thru sound output
+TRAIL
+LPRINT
+LLIST
+LABEL
+BEEP pitch, duration,volume(<64)
+ROUND
+APPEND
+CODE
+LINK		to do with copying streams to printer/serial ports I believe
+SWAP		swaps two variables
+WHILE
+WEND
+REPEAT
+UNTIL
+FTEXT		hmmm, a lynx 128 version of TEXT - doesn't seem to be a lot of difference!
+ELSE
+RESERVE
+MON		YAY - enter the monitor program (j - exits, h - hex dump, g = go, can't remember the others)
+RENUM
+XROM		unsure
+EXT		starting prefix for the extended commands, eg: 'EXT ZAP'
+CFR n		Sets Cursor repeat rate
+CCHAR
+TRACE
+SPEED	n	Dont know what this does, serial port?
+PROTECT		turns on and off the different video banks allowing read/write to a selection
+ERROR
+TAPE	n (<6)  sets the tape save/load speed	
+MLOAD		loads a binary to memory
+BREAK
+SLOW		dont know - ZX81 emulation built in perhaps...
+FAST
+OLD		dont know
+
+CTRL+Q		Bring back last typed line
+CTRL+E		Edit line
+ESC+ALPHA	Shorthand typing
+
+MON		Enters monitor J to leave
