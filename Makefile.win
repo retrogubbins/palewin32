@@ -1,0 +1,36 @@
+# Project: Project2
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o SPEC.o SPECHELP.o $(RES)
+LINKOBJ  = main.o SPEC.o SPECHELP.o $(RES)
+LIBS =  -L"D:/Dev-Cpp/lib" -mwindows RAZE.O ../../Dev-Cpp/include/allegro/lib/liballp.a  
+INCS =  -I"D:/Dev-Cpp/include"  -I"D:/Dev-Cpp/include/SDL/include"  -I"D:/Dev-Cpp/include/allegro/include" 
+CXXINCS =  -I"D:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"D:/Dev-Cpp/include/c++/3.4.2/backward"  -I"D:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"D:/Dev-Cpp/include/c++/3.4.2"  -I"D:/Dev-Cpp/include"  -I"D:/Dev-Cpp/include/allegro/include" 
+BIN  = Project2.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project2.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Project2.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+SPEC.o: SPEC.C
+	$(CPP) -c SPEC.C -o SPEC.o $(CXXFLAGS)
+
+SPECHELP.o: SPECHELP.C
+	$(CPP) -c SPECHELP.C -o SPECHELP.o $(CXXFLAGS)
